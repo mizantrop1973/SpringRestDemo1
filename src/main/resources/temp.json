@@ -1,0 +1,21 @@
+  [{
+    "cars": [],
+    "firstName": "qqq",
+    "hashPassword": "$2a$10$D0aDTQ8UfnD.gtxSXbbv2.OnTiikpC./hxwl8xtGYkzeihs8NYz3a",
+    "lastName": "qqq",
+    "login": "qqq",
+    "role": "ADMIN",
+    "state": "ACTIVE",
+    "userId": 1
+  },
+  {
+    "cars": [],
+    "firstName": "www",
+    "hashPassword": "$2a$10$JXcyX1gJCRv0ByVtQBFF0eaXb2GDpXoq56BHYACQ/EqOEPKR3Z17e",
+    "lastName": "www",
+    "login": "www",
+    "role": "USER",
+    "state": "ACTIVE",
+    "userId": 3
+  }
+   ]
