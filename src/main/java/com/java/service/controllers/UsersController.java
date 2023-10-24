@@ -13,13 +13,13 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-
 public class UsersController {
 
     @Autowired
     private UserService userService;
 
     @GetMapping("/users")
+
     public List<User> getUsers () {
 
         return userService.findAll();

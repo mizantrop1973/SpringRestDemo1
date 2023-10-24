@@ -39,8 +39,7 @@ public class User {
     @OneToMany(mappedBy = "owner", fetch = EAGER)
     private List<Car> cars;
 
-    @OneToMany
-    @JoinColumn(name = "user_id")
+    @OneToMany(mappedBy = "user", fetch = EAGER)
     List<Token> tokens;
 
 
